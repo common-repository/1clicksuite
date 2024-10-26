@@ -1,0 +1,145 @@
+
+/* CSS personalizzato
+–––––––––––––––––––––––––––––––––––––––––––––––––– 
+ */
+
+.wpcf7-one-row {
+  display: flex;
+  align-items: center;
+	justify-content: space-between;
+	margin-bottom: 1em;
+}
+.wpcf7-one-row > span {
+  margin-left: 10px;
+}
+.wpcf7-one-row > label {
+  width: 30%;
+}
+
+@media (max-width: 680px) {
+	.wpcf7-one-row > * {
+    flex: 1 1 100%;
+	}
+}
+@media (max-width: 350px) {
+	.wpcf7-one-row {
+		flex-wrap: wrap;
+	}
+}
+
+
+.wpcf7-one-row-dates {
+	display: flex;
+  margin-bottom: 1em;
+  flex: 1 1 100%;
+  flex-wrap: wrap;
+}
+.wpcf7-one-row-dates > div {
+	display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+}
+@media ( max-width: 500px ) {
+	.wpcf7-one-row-dates > div {
+		flex-wrap: wrap;
+		flex: 1 1 100%;
+		justify-content: space-between;
+		margin-bottom: 1em;
+	}
+}
+
+
+/* CF7 RULES
+–––––––––––––––––––––––––––––––––––––––––––––––––– 
+.wpcf7 form.wpcf7-form input[type="email"],
+.wpcf7 form.wpcf7-form input[type="number"],
+.wpcf7 form.wpcf7-form input[type="search"],
+.wpcf7 form.wpcf7-form input[type="text"],
+.wpcf7 form.wpcf7-form input[type="tel"],
+.wpcf7 form.wpcf7-form input[type="url"],
+.wpcf7 form.wpcf7-form input[type="password"],
+.wpcf7 form.wpcf7-form textarea,
+.wpcf7 form.wpcf7-form select {
+  height: 38px;
+  padding: 6px 10px; 
+  background-color: #fcfcfc;
+  border: 1px solid #D1D1D1;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box; }
+
+.wpcf7 form.wpcf7-form textarea {
+  min-height: 65px;
+  padding-top: 6px;
+  padding-bottom: 6px; }
+.wpcf7 form.wpcf7-form input[type="email"]:focus,
+.wpcf7 form.wpcf7-form input[type="number"]:focus,
+.wpcf7 form.wpcf7-form input[type="search"]:focus,
+.wpcf7 form.wpcf7-form input[type="text"]:focus,
+.wpcf7 form.wpcf7-form input[type="tel"]:focus,
+.wpcf7 form.wpcf7-form input[type="url"]:focus,
+.wpcf7 form.wpcf7-form input[type="password"]:focus,
+.wpcf7 form.wpcf7-form textarea:focus,
+.wpcf7 form.wpcf7-form select:focus {
+  border: 1px solid #33C3F0;
+  outline: 0; }
+.wpcf7 form.wpcf7-form label,
+.wpcf7 form.wpcf7-form legend {
+  display: block;
+  margin-bottom: .3rem;
+  font-weight: 400; }
+.wpcf7 form.wpcf7-form fieldset {
+  padding: 0;
+  border-width: 0; }
+.wpcf7 form.wpcf7-form input[type="checkbox"],
+.wpcf7 form.wpcf7-form input[type="radio"] {
+  display: inline; 
+  width: 1.5rem;
+  min-width: 1.5rem;  
+}
+.wpcf7 form.wpcf7-form label > .label-body {
+  display: inline-block;
+  margin-left: .3rem;
+  font-weight: normal; }
+  
+*/
+
+
+  /* Spacing
+–––––––––––––––––––––––––––––––––––––––––––––––––– 
+.wpcf7 form.wpcf7-form button,
+.wpcf7 form.wpcf7-form .button {
+  margin-bottom: 1rem; }
+.wpcf7 form.wpcf7-form input,
+.wpcf7 form.wpcf7-form textarea,
+.wpcf7 form.wpcf7-form select,
+.wpcf7 form.wpcf7-form fieldset {
+  margin-bottom: 1.1rem; }
+.wpcf7 form.wpcf7-form pre,
+.wpcf7 form.wpcf7-form blockquote,
+.wpcf7 form.wpcf7-form dl,
+.wpcf7 form.wpcf7-form figure,
+.wpcf7 form.wpcf7-form table,
+.wpcf7 form.wpcf7-form p,
+.wpcf7 form.wpcf7-form ul,
+.wpcf7 form.wpcf7-form ol,
+.wpcf7 form.wpcf7-form form {
+  margin-bottom: 1.5rem; }
+*/
+  
+  
+  
+/* Removes awkward default styles on some inputs for iOS 
+.wpcf7 form.wpcf7-form input[type="email"],
+.wpcf7 form.wpcf7-form input[type="number"],
+.wpcf7 form.wpcf7-form input[type="search"],
+.wpcf7 form.wpcf7-form input[type="text"],
+.wpcf7 form.wpcf7-form input[type="tel"],
+.wpcf7 form.wpcf7-form input[type="url"],
+.wpcf7 form.wpcf7-form input[type="password"],
+.wpcf7 form.wpcf7-form textarea {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none; }
+*/
